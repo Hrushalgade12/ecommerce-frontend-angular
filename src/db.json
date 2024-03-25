@@ -1,0 +1,48 @@
+{
+  "seller": [
+    {
+      "id": "3031",
+      "name": "Hrushal Gade",
+      "email": "anil@seller.com",
+      "password": "abc@123"
+    },
+    {
+      "id": "b733",
+      "name": "Apurva",
+      "password": "123",
+      "email": "apurva@gmail.com"
+    },
+    {
+      "id": "de83",
+      "name": "Hrushal Kirankumar Gade",
+      "password": "123",
+      "email": "hrushal.gade@fujitsu.com"
+    },
+    {
+      "id": "fee3",
+      "name": "Ganesh Pagare",
+      "password": "welcome@123",
+      "email": "ganesh@gmail.com"
+    }
+  ],
+  "products": [
+    {
+      "id": "1bc7",
+      "pName": "Laptop Hp",
+      "price": "112202",
+      "color": "blue",
+      "catagory": "TouchScreen",
+      "desc": "battery New",
+      "image": "asd"
+    },
+    {
+      "id": "903e",
+      "pName": "Dell Latitude 480",
+      "price": "29500",
+      "color": "Grey",
+      "catagory": "Laptop",
+      "desc": "i5 8th Gen",
+      "image": "abc"
+    }
+  ]
+}
