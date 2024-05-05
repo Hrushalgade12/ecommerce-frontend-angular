@@ -1,0 +1,13 @@
+.product-header-img{
+    /* object-fit: contain; */
+    height: 350px;
+    width: 100%;
+}
+.product-item img{
+    height: 100px;
+
+}
+.product-list-wrapper{
+margin-top: 80px;
+margin-bottom: 80px;
+}

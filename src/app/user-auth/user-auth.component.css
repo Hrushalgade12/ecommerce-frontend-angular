@@ -1,0 +1,14 @@
+.user-auth{
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 80px;
+    color: blueviolet;
+}
+.auth-toggle-link{
+    font-size: 14px;
+    text-align: left;
+    margin-top: 20px;
+    color: blueviolet;
+    cursor: pointer; 
+    
+}

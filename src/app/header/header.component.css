@@ -17,32 +17,49 @@
   padding-left: 15px;
   padding-top: 15px;
 }
-.nav li a{
-    text-decoration: none;
-    color: blueviolet;
+.nav li a {
+  text-decoration: none;
+  color: blueviolet;
 }
 .nav .nav-search {
-    width: 25%;
-    margin-top: 5px;
-    flex: 1;
-    display: flex;
-    margin-left: 5%;
-    margin-right: 5%;
+  width: 25%;
+  margin-top: 5px;
+  flex: 1;
+  display: flex;
+  margin-left: 5%;
+  margin-right: 5%;
 }
-.nav .nav-search input{
-    flex: 1;
-    color: blueviolet;
-    border: 1px solid blueviolet;
-    height: 35px;
-    border-right: 0px;
+.nav .nav-search input {
+  flex: 1;
+  color: blueviolet;
+  border: 1px solid blueviolet;
+  height: 39px;
+  border-right: 0px;
 }
-.nav .nav-search button{ 
-    color: blueviolet;
-    border: 1px solid blueviolet;
-    height: 39px;
-    border-left: 0px;
+.nav .nav-search button {
+  color: blueviolet;
+  border: 1px solid blueviolet;
+  height: 39px;
+  border-left: 0px;
 }
-h1 a{
-  color:blueviolet;
+h1 a {
+  color: blueviolet;
   text-decoration: none;
+}
+.suggested-result {
+  position: absolute;
+  display: list-item !important;
+  top: 40px;
+  width: 250px;
+  z-index: 1;
+  background-color: ghostwhite;
+  border: 1px solid;
+}
+.suggested-result li{
+  border: 1px solid wheat;
+  padding: 5px;
+}
+.suggested-result li a{
+  cursor: pointer;
+  color: blueviolet;
 }

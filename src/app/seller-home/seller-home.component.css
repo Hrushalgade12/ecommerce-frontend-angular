@@ -7,4 +7,14 @@ table, td, table th{
     border: 1px solid blueviolet;
     padding: 10px;
     min-height: 160px;
+    min-width: 200px;
+
+}
+.product-list img{
+ width: 200px;
+}
+.product-list fa-icon{
+    margin-left: 50%;
+    height: 20px;
+    font-size: 30px;
 }

@@ -10,7 +10,7 @@ import { ActivatedRoute } from '@angular/router';
 })
 export class SellerAddProductComponent implements OnInit {
   addProductMessage: string | undefined;
-  public product: Product = new Product();
+  public product: Product;
   constructor(
     private addProductService: ProductService,
     private activatedRoute: ActivatedRoute

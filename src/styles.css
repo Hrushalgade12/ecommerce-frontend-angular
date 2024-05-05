@@ -31,3 +31,12 @@ body {
 .error-p{
   color: red;
 }
+.invalid-input{
+  color :red;
+  font-size: 15px ;
+  margin-top: -20px;
+}
+.message-p{
+  color: green;
+  text-align: center;
+}

@@ -1,4 +1,18 @@
 {
+  "user": [
+    {
+      "name": "Hrushal Gade",
+      "email": "gadehrushalk@gmail.com",
+      "password": "1234",
+      "id": "iiFTGwU"
+    },
+    {
+      "name": "Ganesh Pagare",
+      "email": "pgn@gmail.com",
+      "password": "1234",
+      "id": "jtvaI8n"
+    }
+  ],
   "seller": [
     {
       "id": "3031",
@@ -23,26 +37,58 @@
       "name": "Ganesh Pagare",
       "password": "welcome@123",
       "email": "ganesh@gmail.com"
+    },
+    {
+      "id": "1252",
+      "name": "Ganesh Pagare",
+      "password": "1234",
+      "email": "gadehrushalk@gmail.com"
+    },
+    {
+      "id": "ce34",
+      "name": "Ganesh Pagare",
+      "password": "12345",
+      "email": "gadehrushalk@gmail.com"
     }
   ],
   "products": [
     {
-      "id": "1bc7",
-      "pName": "Laptop Hp",
-      "price": "112202",
+      "id": "23b4",
+      "pName": "Lenovo T480",
+      "price": 112202,
       "color": "blue",
       "catagory": "TouchScreen",
       "desc": "battery New",
-      "image": "asd"
+      "image": "https://images.unsplash.com/photo-1494698853255-d0fa521abc6c?q=80&w=1856&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": "903e",
       "pName": "Dell Latitude 480",
-      "price": "29500",
+      "price": 29500,
       "color": "Grey",
       "catagory": "Laptop",
       "desc": "i5 8th Gen",
-      "image": "abc"
+      "image": "https://images.unsplash.com/photo-1611186871348-b1ce696e52c9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      "pName": "Dell laptop",
+      "price": 20000,
+      "color": "black",
+      "catagory": "laptop",
+      "desc": "Ryzen5 Touchscreen",
+      "image": "https://www.tradeindia.com/_next/image/?url=https%3A%2F%2Ftiimg.tistatic.com%2Ffp%2F1%2F005%2F684%2Fdell-laptop-black-color--358.jpg&w=384&q=15",
+      "id": "ydRI32K"
+    }
+  ],
+  "cart": [],
+  "orders": [
+    {
+      "email": "gadehrushalk@gmail.com",
+      "address": "At/post: Aradgaon, Tal: Rahuri",
+      "contact": "08605965576",
+      "totalPrice": 131001.33333333333,
+      "userId": "iiFTGwU",
+      "id": 1
     }
   ]
 }
