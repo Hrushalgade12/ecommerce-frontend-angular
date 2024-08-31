@@ -13,7 +13,7 @@ export class ProductService {
   constructor(private http: HttpClient) {}
 
   addProduct(data: Product) {
-    return this.http.post('http://localhost:3000/products/', data, {
+    return this.http.post('http://localhost:8080/product/addProduct', data, {
       observe: 'response',
     });
   }
@@ -22,7 +22,7 @@ export class ProductService {
     return this.http.delete<Product>(`http://localhost:3000/products/${id}`);
   }
   productList() {
-    return this.http.get<Product[]>('http://localhost:3000/products/');
+    return this.http.get<Product[]>('http://localhost:8080/product/getAll');
   }
   getProductById(id: string) {
     return this.http.get<Product>(`http://localhost:3000/products/${id}`);
@@ -38,10 +38,10 @@ export class ProductService {
     );
   }
   popularProducts() {
-    return this.http.get<Product[]>('http://localhost:3000/products?_limit=2');
+    return this.http.get<Product[]>('http://localhost:8080/product/getAll');
   }
   trendyProducts() {
-    return this.http.get<Product[]>('http://localhost:3000/products?_limit=4');
+    return this.http.get<Product[]>('http://localhost:8080/product/getAll');
   }
   searchProducts(query: string) {
     return this.http.get<Product[]>(

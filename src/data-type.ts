@@ -6,7 +6,7 @@ export interface SignUp{
 
 export interface Login{
     password:string,
-    email:string
+    username:string
 }
 export interface Product{
     id:string;

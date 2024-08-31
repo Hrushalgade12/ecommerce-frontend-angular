@@ -1,4 +1,4 @@
-import { HttpClientModule } from '@angular/common/http';
+import { HTTP_INTERCEPTORS, HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
@@ -20,6 +20,7 @@ import { FooterComponent } from './footer/footer.component';
 import { CartPageComponent } from './cart-page/cart-page.component';
 import { CheckoutComponent } from './checkout/checkout.component';
 import { MyOrderComponent } from './my-order/my-order.component';
+import { CustomInterceptor } from './services/custom.interceptor';
 
 @NgModule({
   declarations: [
@@ -46,7 +47,13 @@ import { MyOrderComponent } from './my-order/my-order.component';
     FontAwesomeModule,
     NgbModule 
   ],
-  providers: [],
+  providers: [
+    {
+      provide: HTTP_INTERCEPTORS,
+      useClass:CustomInterceptor,
+      multi: true
+    }
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

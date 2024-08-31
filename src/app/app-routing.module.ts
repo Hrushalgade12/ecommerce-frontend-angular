@@ -11,6 +11,7 @@ import { UserAuthComponent } from './user-auth/user-auth.component';
 import { CartPageComponent } from './cart-page/cart-page.component';
 import { CheckoutComponent } from './checkout/checkout.component';
 import { MyOrderComponent } from './my-order/my-order.component';
+import { APP_BASE_HREF, HashLocationStrategy, LocationStrategy, PathLocationStrategy } from '@angular/common';
 
 const routes: Routes = [
   {
@@ -70,5 +71,9 @@ const routes: Routes = [
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule],
+  providers: [
+    { provide: LocationStrategy, useClass: PathLocationStrategy },
+    { provide: APP_BASE_HREF, useValue: '/' },
+],
 })
 export class AppRoutingModule {}
